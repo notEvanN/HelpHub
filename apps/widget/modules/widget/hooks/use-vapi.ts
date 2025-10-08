@@ -65,7 +65,7 @@ export const useVapi = () => {
 
         if (vapi) {
         // Only for testing
-            vapi.start("4501796f-d8d9-4d14-b23d-79947fee3c71");
+            vapi.start("process.env.NEXT_PUBLIC_VAPI_TEST_CALL_ID || 'test-call-id'");
         }
     };
 
