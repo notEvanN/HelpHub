@@ -4,11 +4,11 @@ import { useAtomValue } from "jotai";
 import { WidgetAuthScreen } from "@/modules/widget/ui/screens/widget-auth-screen";
 import { screenAtom } from "@/modules/widget/atoms/widget-atoms";
 
-interface Probs {
+interface Props {
     organizationId: string;
 };
 
-export const WidgetView = ({ organizationId }: Probs) => {
+export const WidgetView = ({ organizationId }: Props) => {
     const screen = useAtomValue(screenAtom);
 
     const screenComponents = {
