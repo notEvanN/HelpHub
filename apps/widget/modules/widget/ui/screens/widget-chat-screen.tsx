@@ -149,7 +149,7 @@ export const WidgetChatScreen = () => {
                                     disabled={conversation?.status === "resolved"}
                                     onChange={field.onChange}
                                     onKeyDown={(e) => {
-                                        if (e.key === "enter" && !e.shiftKey) {
+                                        if (e.key === "Enter" && !e.shiftKey) {
                                             e.preventDefault();
                                             form.handleSubmit(onSubmit)();
                                         }
