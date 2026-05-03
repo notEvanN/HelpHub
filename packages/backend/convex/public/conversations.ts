@@ -46,7 +46,7 @@ export const getMany = query({
                     _creationTime: conversation._creationTime,
                     status: conversation.status,
                     organizationId: conversation.organizationId,
-                    theadId: conversation.threadId,
+                    threadId: conversation.threadId,
                     lastMessage,
                 }
             })

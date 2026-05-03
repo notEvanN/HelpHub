@@ -58,7 +58,7 @@ export const WidgetInboxScreen = () => {
                 {conversations?.results.length > 0 &&
                     conversations?.results.map((conversation) => (
                         <Button
-                            className="h-20 w-fll justify-between"
+                            className="h-20 w-full justify-between"
                             key={conversation._id}
                             onClick={() => {
                                 setConversationId(conversation._id);
