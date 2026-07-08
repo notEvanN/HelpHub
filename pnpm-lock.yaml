@@ -144,6 +144,9 @@ importers:
       convex:
         specifier: 1.25.4
         version: 1.25.4(@clerk/clerk-react@5.46.2(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(react@19.1.1)
+      countries-and-timezones:
+        specifier: ^3.9.0
+        version: 3.9.0
       date-fns:
         specifier: ^4.1.0
         version: 4.1.0
@@ -153,6 +156,9 @@ importers:
       input-otp:
         specifier: ^1.4.2
         version: 1.4.2(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+      jotai:
+        specifier: ^2.17.1
+        version: 2.17.1(@babel/core@7.28.4)(@babel/template@7.27.2)(@types/react@19.1.9)(react@19.1.1)
       lucide-react:
         specifier: ^0.475.0
         version: 0.475.0(react@19.1.1)
@@ -443,6 +449,9 @@ importers:
       react-markdown:
         specifier: ^10.1.0
         version: 10.1.0(@types/react@19.1.9)(react@19.1.1)
+      react-resizable-panels:
+        specifier: ^3.0.6
+        version: 3.0.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       remark-gfm:
         specifier: ^4.0.1
         version: 4.0.1
@@ -3526,6 +3535,10 @@ packages:
 
   core-js-pure@3.45.0:
     resolution: {integrity: sha512-OtwjqcDpY2X/eIIg1ol/n0y/X8A9foliaNt1dSK0gV3J2/zw+89FcNG3mPK+N8YWts4ZFUPxnrAzsxs/lf8yDA==}
+
+  countries-and-timezones@3.9.0:
+    resolution: {integrity: sha512-3upkVtUfZgdp5xOQI/Deg1ye73ae6bygJMO4UvtUi6wLjwcj7cBqx2PzSZ1VL8i5iveBbjhsQp2Judx7kPKivA==}
+    engines: {node: '>=8.x', npm: '>=5.x'}
 
   create-require@1.1.1:
     resolution: {integrity: sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==}
@@ -9008,6 +9021,8 @@ snapshots:
   cookie@1.0.2: {}
 
   core-js-pure@3.45.0: {}
+
+  countries-and-timezones@3.9.0: {}
 
   create-require@1.1.1: {}
 
