@@ -177,7 +177,7 @@ export const ConversationsPanel = () => {
 
 export const SkeletonConversations = () => {
     return (
-        <div className="flex min-h-1 g;ex-1 flex-col gap-2 overflow-auto">
+        <div className="flex min-h-1 flex-1 flex-col gap-2 overflow-auto">
             <div className="relative flex w-full min-w-0 flex-col p-2">
                 <div className="w-full space-y-2">
                     {Array.from({ length: 10 }).map((_, index) => (
