@@ -38,7 +38,7 @@ export const ConversationStatusButton = ({
         <Hint text="Mark as escalated">
                 <Button onClick={onClick} variant="destructive" size="sm" disabled={disabled}>
                     <ArrowRightIcon />
-                    Resolve
+                    Unresolved
                 </Button>
             </Hint>
     )
